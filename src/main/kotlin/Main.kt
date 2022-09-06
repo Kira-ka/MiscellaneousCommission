@@ -1,4 +1,10 @@
 fun main() {
+    val vk = "Vk Pay"
+    val visa = "Visa"
+    val world = "Мир"
+    val master = "Mastercard"
+    val maestro = "Maestro"
+
     val resuit = commission(260_000)
     println(resuit)
 
