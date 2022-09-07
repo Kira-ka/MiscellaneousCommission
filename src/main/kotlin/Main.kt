@@ -5,7 +5,7 @@ fun main() {
     val master = "Mastercard"
     val maestro = "Maestro"
 
-    val resuit = commission(260_000)
+    val resuit = commission(10_000000, typeOfPaymentSystem = master)
     println(resuit)
 
 }
