@@ -82,7 +82,7 @@ class MainKtTest {
 
         val result = commission(amount, transfersPerMonth, typeOfPaymentSystem)
 
-        assertEquals(100_000, result)
+        assertEquals(99_000, result)
 
     }
 
